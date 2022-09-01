@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #B55DFA, #180220fb);
+}
+
+
+div#imgFundo>img{
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+}
+
+article{
+    width: 450px;
+    height: 300px;
+    background-color: white;
+}
+
+section{
+    margin: auto;
+    height: 300px;
+    text-align: center;
+    display: inline;
+    
+    
+    
+}
