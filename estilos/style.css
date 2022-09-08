@@ -2,8 +2,11 @@
 
 
 
+body { 
+    background-color: #180220fb;
+}
+
 section{
-    font-family: Arial, Helvetica, sans-serif;
     width: 50vw;
     height: 100vh;
    
@@ -14,14 +17,13 @@ section{
     justify-content: center;
     align-items: center;
     
-
 }
 
 article{
     background-color: rgb(240, 240, 240);
     text-align: center;
-    height: 34vh;
-    width: 270px;
+    height: 280px;
+    width: 275px;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 1px 1px 1px black;
 }
@@ -34,7 +36,7 @@ article>h1{
 
 article>p{
     font-size: 0.9em;
-    padding: 3px 3px;
+    padding: 3px 5px;
    
 }
 
@@ -42,8 +44,8 @@ div#imgFundo{
     background-image: url(../midia/pexels-vlad-fonsark-3988897\ \(1\).jpg);
     background-size: cover;
     background-position: center bottom;
-    width: 270px;
-    height: 25vh;    
+    width: 275px;
+    height: 200px;    
     border-radius: 15px 15px 0px 0px;
     box-shadow: 2px 2px 4px rgb(27, 3, 54);
 }
@@ -52,55 +54,65 @@ div#imgFundo{
 div.login{
     background-color: rgb(144, 34, 172);
     padding: 2px;
-    margin: 4px;
+    margin: auto;
+    margin-bottom: 4px;
     border-radius: 10px;
     width: 255px;
 
 }
 
-div.LinkSenha{
+/* Class do botão esqueci a senha */
+a.botao{
     width: 200px;
-    border: 2px solid rgba(165, 52, 165, 0.24); 
+    border: 2px solid rgb(107, 68, 17); 
     margin-left: 40px;
-    margin-top: 3px;;
+    margin-top: 3px;
     color: black;
-    padding: 3px
+    padding: 4px 50px;
+
+    text-decoration:none;
 } 
 
-div.LinkSenha>a{
-    text-decoration: none;
-
-}
 
 /* Botão Entrar */
-div#clickLogin{
-    background-color: rgb(114, 26, 158);
+input#entrar{
+    background-color: rgb(121, 87, 14);
     border-radius: 10px;
     width: 255px;
     margin: auto;
-    height: 2.5vh;
+    height: 30px;
+    color: white;
+    margin-bottom:4px;
     
 }
-/* Link entrar */
-div#clickLogin>a{
-    color:white;
+
+input#entrar:hover{
+    background-color: rgb(92, 66, 9);
+    cursor: pointer;
 }
 
-div#clickEsqueci{
+
+a.botao{
     width: 255px;
     margin: auto;
     border-radius:10px;
     margin-top: 4px;
+    padding-top: 8px;
+}
+
+a.botao:hover{
+    background-color: rgb(185, 107, 44);
 }
 
 
 input{
     width: 190px;
-    height: 3.5vh;
+    height: 25px;
     border-radius: 7px;
-    background-color: rgb(202, 200, 202);
-
+    background-color: rgb(184, 154, 110);
+    border-color: rgb(109, 80, 25);
 }
+
 
 
 
