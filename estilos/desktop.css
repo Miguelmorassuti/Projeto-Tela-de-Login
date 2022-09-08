@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+@media only screen and (min-width:769px){
+    body {
+    background: linear-gradient(to bottom, #B55DFA, #180220fb); 
+    }
+
+    section {
+        width:100vw;
+        height:100vh;
+        display:flex;
+        margin:auto;
+        align-items:center;
+        justify-content:center;
+        flex-direction:row-reverse;
+        
+        
+    }
+
+    article{
+        box-sizing: border-box;
+        height: 280px;
+        width: 55vw;
+        background-color: white;   
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    div#imgFundo{
+        background-image: url(../midia/pexels-vlad-fonsark-3988897\ \(1\).jpg);
+        height: 280px;
+        width: 25vw;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+       
+    }
+
+    article>h1 {
+        text-align: center;
+        padding: 10px;
+        font-size:1.6em;
+    }
+
+    article>p{
+        text-align: justify;
+        margin: 0px 10px;
+        text-indent: 4px;
+    }
+
+
+    input#entrar{
+        background-color: rgb(121, 87, 14);
+        border-radius: 8px;
+        width: 51vw;
+        margin: auto;
+        height: 35px;
+        color: white;
+        margin:8px 0px 8px 17px;
+        
+    }
+    
+    input#entrar:hover{
+        background-color: rgb(92, 66, 9);
+        cursor: pointer;
+    }
+
+    a.botao{  
+        display: block;
+        height: 35px;
+        width: 51vw;
+  
+        border: 2px solid rgb(107, 68, 17); 
+        color:black;
+        border-radius: 8px;
+        text-decoration: none;
+        padding: 0px 0px 34px 0px;
+        margin: auto;
+        text-align: center;  
+    } 
+    
+    a.botao:hover{
+        background-color: rgb(185, 107, 44);
+    }
+}
+
+
+
+
+    
