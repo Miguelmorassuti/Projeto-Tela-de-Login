@@ -13,7 +13,9 @@
         margin:auto;
         align-items:center;
         justify-content:center;
-        flex-direction:row-reverse;      
+        flex-direction:row-reverse;     
+        
+        transition: width .4s height .4s;
     }
 
     article{
